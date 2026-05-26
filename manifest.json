@@ -1,0 +1,15 @@
+{
+  "name": "M.Wilson Portfolio",
+  "short_name": "MWilson",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020202",
+  "theme_color": "#020202",
+  "icons": [
+    {
+      "src": "images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
