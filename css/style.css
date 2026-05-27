@@ -468,3 +468,15 @@ footer{flex-direction:column;gap:10px;text-align:center;padding:20px}
 	/* Ensure buttons and links are comfortably tappable */
 	.p-link{padding:10px 0;display:inline-block}
 	}
+
+/* Mobile breakpoint: show projects one-by-one for small tablets and phones */
+@media (max-width:768px){
+	.proj-grid{grid-template-columns:1fr!important;gap:14px}
+	.proj-grid .pc{padding:20px 18px}
+	.proj-grid .p-num{font-size:36px}
+	.proj-grid .p-name{font-size:20px}
+	.proj-grid .p-desc{font-size:15px;line-height:1.6}
+	.proj-grid .p-tags{margin-top:12px}
+	.p-tag{font-size:11px;padding:6px 9px}
+	.p-preview{height:2px}
+}
